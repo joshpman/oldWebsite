@@ -1,0 +1,101 @@
+/* Place your CSS styles in this file */
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+      
+    }
+
+
+body {
+    font-family: "Copperplate", "Papyrus";
+    color:ghostwhite;
+      background-image: url("./webbackground.jpg");
+      background-size: cover;
+
+}
+
+.container{
+    max-width: 100rem;
+   
+    padding: 0px 2rem;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 41px;
+    outline: 4px solid red;
+}
+nav{
+    overflow: hidden;
+    background: rgba(6, 57, 112, .4);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    align-items: start;
+    positon: fixed;
+}
+
+
+
+
+.toplogo img {
+    height : 30%;
+    width : 30%;
+}
+
+button {
+  font-size: 2rem;
+  padding: 1rem 4rem;
+  font-weight: bold;
+    background: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
+  cursor: pointer;
+  border: none;
+  margin-right: 0px;
+  white-space: nowrap;
+
+}
+
+button:hover {
+  color: black;
+  border: none;
+}
+
+.center{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50rem;
+    height: 18rem;
+    position: absolute;
+    top: 35%;
+    left:35%;
+    background:rgba(11, 82, 157, 0.4);
+    border-radius: 3rem;
+    padding: 40px;
+}
+
+.landing-header{
+    font-size: xx-large;
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+        text-align: left;
+}
+
+.main-buttons Button{
+
+    position: relative;
+    bottom: -11rem;
+}

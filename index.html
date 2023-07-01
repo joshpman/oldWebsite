@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>uhhh</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+
+    </head>
+
+    <!--Change background color once css implemented-->
+    <body style="background-color:white">
+
+
+        <!--nav bar + logo(eventually)-->
+        <header>
+        <nav>
+             <!--div class="navbar-header">
+                    <span><a class="navbar-brand toplogo" href="#"><img src="log.svg"/></a></span>
+              </div-->
+                <form>
+                    <button type="submit" onclick = "fun()">Home</button>
+                </form>
+                 
+                <form action="projects.html">
+                    <button type="submit">Projects</button>
+                </form>
+                <form action="resume.html">
+                    <button type="submit">Resume</button>
+                </form>
+                <form action="contact.html">
+                    <button type="submit">Contact Me</button>
+                </form>
+                
+            </div>
+        </nav>
+        </header>
+
+
+        <!--Main landing section, everything below nav bar-->
+        <section>
+            <div class="container">
+                <div class="center">
+                    <div class="ad">
+                     <h1 class="landing-header">Hi, I'm <span class="auto-type"></span><h1>
+                     <p1 class="subtext">I'm a Junior at Michigan Tech currently studying Computer Science<p1>
+                    </div>
+                    <!--img src="profilePic" alt="somethingAlt" class="image-fluid user"></img-->
+                    <div class="main-buttons">
+                         <form action="projects.html">
+                                <button type="submit">My Projects!</button>
+                        </form>
+                        <form action="resume.html">
+                            <button type="submit">My Resume!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <section>
+          <!-- Load library from the CDN -->
+         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+     <script>
+        var typed = new Typed('.auto-type', {
+      strings: ['Josh Pearlman^3000', 'Student ^3000','a Developer^3000', 'a Lifelong Learner^3000'],
+      smartBackspace: true,
+      backSpeed: 30,
+      typeSpeed: 70,
+      loop: true
+    });
+  </script>
+
+
+        
+    </body>
+
+
+</html>
